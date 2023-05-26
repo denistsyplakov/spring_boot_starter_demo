@@ -15,6 +15,6 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
-	implementation 'com.github.denistsyplakov:Repo:Tag'
+	implementation files('../sample.starter/lib/build/libs/lib.jar')
 }
 
